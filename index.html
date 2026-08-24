@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Smart Buy India</title>
+
+  <title>Smart Buy India | Best Products</title>
 
   <style>
     * {
@@ -21,7 +22,7 @@
     header {
       background: #111827;
       color: white;
-      padding: 18px 20px;
+      padding: 20px;
       text-align: center;
     }
 
@@ -129,6 +130,11 @@
       margin-bottom: 8px;
     }
 
+    .product p {
+      color: #6b7280;
+      line-height: 1.5;
+    }
+
     .price {
       font-size: 20px;
       font-weight: bold;
@@ -144,6 +150,20 @@
       border-radius: 9px;
       text-decoration: none;
       font-weight: bold;
+    }
+
+    .buy:hover {
+      background: #15803d;
+    }
+
+    .disclosure {
+      margin-top: 30px;
+      padding: 15px;
+      background: #fff7ed;
+      border-radius: 10px;
+      color: #7c2d12;
+      font-size: 14px;
+      text-align: center;
     }
 
     footer {
@@ -165,112 +185,241 @@
 
 <section class="hero">
   <h2>Find Your Best Products</h2>
-  <p>Discover useful and trending products at great prices.</p>
+
+  <p>
+    Discover useful and trending products at great prices.
+  </p>
 
   <div class="search">
-    <input type="text" id="searchInput" placeholder="Search products...">
-    <button onclick="searchProducts()">Search</button>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Search products..."
+    >
+
+    <button onclick="searchProducts()">
+      Search
+    </button>
   </div>
 </section>
 
 <div class="container">
 
-  <h2 class="section-title">Categories</h2>
+  <h2 class="section-title">
+    Categories
+  </h2>
 
   <div class="categories">
+
     <div class="category">📱 Electronics</div>
+
     <div class="category">🏠 Home</div>
-    <div class="category">👕 Fashion</div>
+
     <div class="category">🎧 Gadgets</div>
-    <div class="category">💄 Beauty</div>
+
+    <div class="category">📚 Books</div>
+
+    <div class="category">🏕️ Outdoor</div>
+
     <div class="category">🎒 Accessories</div>
+
   </div>
 
-  <h2 class="section-title">Featured Products</h2>
+
+  <h2 class="section-title">
+    Featured Products
+  </h2>
+
 
   <div class="products" id="productList">
 
-    <div class="product">
-      <div class="product-image">🎧</div>
-      <h3>Wireless Earbuds</h3>
-      <p>Comfortable wireless earbuds for everyday use.</p>
-      <div class="price">₹999</div>
 
-      <a href="https://amzn.in/d/032bXT2B"
-         class="buy"
-         target="_blank"
-         rel="noopener noreferrer">
+    <!-- PRODUCT 1 -->
+
+    <div class="product">
+
+      <div class="product-image">
+        🎧
+      </div>
+
+      <h3>
+        OnePlus Nord Buds 3r
+      </h3>
+
+      <p>
+        Wireless earbuds with long playback,
+        clear calls and low latency.
+      </p>
+
+      <div class="price">
+        ₹1,999
+      </div>
+
+      <a
+        href="https://amzn.to/4qzhqEF"
+        class="buy"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Buy Now
       </a>
+
     </div>
 
-    <div class="product">
-      <div class="product-image">⌚</div>
-      <h3>Smart Watch</h3>
-      <p>Stylish smartwatch with useful smart features.</p>
-      <div class="price">₹1,499</div>
 
-      <a href="https://amzn.in/d/0hBLb9ui"
-         class="buy"
-         target="_blank"
-         rel="noopener noreferrer">
+    <!-- PRODUCT 2 -->
+
+    <div class="product">
+
+      <div class="product-image">
+        📚
+      </div>
+
+      <h3>
+        Think And Grow Rich
+      </h3>
+
+      <p>
+        Classic self-help book about financial
+        success and goal achievement.
+      </p>
+
+      <div class="price">
+        ₹119
+      </div>
+
+      <a
+        href="https://amzn.to/46i79mR"
+        class="buy"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Buy Now
       </a>
+
     </div>
 
-    <div class="product">
-      <div class="product-image">🎒</div>
-      <h3>Travel Backpack</h3>
-      <p>Durable backpack for travel, college and work.</p>
-      <div class="price">₹799</div>
 
-      <a href="https://amzn.in/d/0evfZRHa"
-         class="buy"
-         target="_blank"
-         rel="noopener noreferrer">
+    <!-- PRODUCT 3 -->
+
+    <div class="product">
+
+      <div class="product-image">
+        🔊
+      </div>
+
+      <h3>
+        Marshall Stanmore III
+      </h3>
+
+      <p>
+        Premium home speaker with Bluetooth,
+        RCA and 3.5mm connectivity.
+      </p>
+
+      <div class="price">
+        ₹37,999
+      </div>
+
+      <a
+        href="https://amzn.to/4zxen3I"
+        class="buy"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Buy Now
       </a>
+
     </div>
 
-    <div class="product">
-      <div class="product-image">🔊</div>
-      <h3>Bluetooth Speaker</h3>
-      <p>Portable speaker with powerful sound.</p>
-      <div class="price">₹1,199</div>
 
-      <a href="https://amzn.in/d/0cwE52uN"
-         class="buy"
-         target="_blank"
-         rel="noopener noreferrer">
+    <!-- PRODUCT 4 -->
+
+    <div class="product">
+
+      <div class="product-image">
+        🏕️
+      </div>
+
+      <h3>
+        Camping Hammock
+      </h3>
+
+      <p>
+        Portable hammock for camping,
+        travel and outdoor activities.
+      </p>
+
+      <div class="price">
+        ₹9,709
+      </div>
+
+      <a
+        href="https://amzn.to/4gx9hfm"
+        class="buy"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Buy Now
       </a>
+
     </div>
 
   </div>
+
+
+  <div class="disclosure">
+    <strong>Affiliate Disclosure:</strong>
+    Some links on this website are affiliate links.
+    We may earn a commission when you make a qualifying
+    purchase through these links.
+  </div>
+
 </div>
 
+
 <footer>
-  <p>© 2026 Smart Buy India. All rights reserved.</p>
+
+  <p>
+    © 2026 Smart Buy India. All rights reserved.
+  </p>
+
 </footer>
 
+
 <script>
+
   function searchProducts() {
-    const input = document.getElementById("searchInput")
-      .value.toLowerCase();
 
-    const products = document.querySelectorAll(".product");
+    const input =
+      document.getElementById("searchInput")
+      .value
+      .toLowerCase()
+      .trim();
 
-    products.forEach(product => {
-      const text = product.innerText.toLowerCase();
+    const products =
+      document.querySelectorAll(".product");
+
+    products.forEach(function(product) {
+
+      const text =
+        product.innerText.toLowerCase();
 
       if (text.includes(input)) {
+
         product.style.display = "block";
+
       } else {
+
         product.style.display = "none";
+
       }
+
     });
+
   }
+
 </script>
 
 </body>
-</html>
+        </html>
